@@ -39,7 +39,7 @@ export default async function displayRazorpay(uid, course, email) {
     try {
       axios.post("http://localhost:5000/razorpay").then((responce) => {
         const options = {
-          key: "rzp_live_n4LsXlPJaWpQ73",
+          key: process.env.REACT_APP_RAZORPAYKEY,
           amount: responce.data.amount,
           currency: responce.data.currency,
           order_id: responce.data.id,
