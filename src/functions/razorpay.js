@@ -43,7 +43,7 @@ export default async function displayRazorpay(uid, course, email) {
           amount: responce.data.amount,
           currency: responce.data.currency,
           order_id: responce.data.id,
-          name: "Rai Jnan",
+          name: "Company Name",
           description: course + " COURSE PURCHASE",
           image: "http://localhost:5000/logo.png",
           handler: function (response) {
