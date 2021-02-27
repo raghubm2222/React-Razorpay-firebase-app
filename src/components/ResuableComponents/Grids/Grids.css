@@ -1,0 +1,41 @@
+.pricing-card {
+  height: 500px;
+  margin: auto;
+}
+.Grid {
+  margin: auto;
+}
+.card {
+  border: 1px solid rgb(179, 168, 168);
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px 20px;
+}
+.card:hover {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.41);
+  transform: translate(0, -5px);
+}
+
+.pay-button {
+  text-decoration: none;
+  width: 250px;
+  height: 40px;
+  margin: 5px 10px;
+  background-color: #be1313;
+  border: transparent;
+  outline: none;
+  color: white;
+  border-radius: 2px;
+  font-weight: bold;
+}
+.pay-button:hover {
+  background-color: #921818;
+  transform: translate(0, -2px);
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  D .pricing-card {
+    height: 600px;
+  }
+}

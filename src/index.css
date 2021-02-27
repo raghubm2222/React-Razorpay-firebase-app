@@ -1,13 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.Button {
+  padding: 10px 15px;
+  color: white;
+  background-color: rgb(44, 44, 252);
+  border: transparent;
+  outline: none;
+  margin: 10px;
+  cursor: pointer;
+}
+.Button-edit {
+  padding: 10px 15px;
+  color: white;
+  background-color: rgb(226, 45, 0);
+  border: transparent;
+  outline: none;
+  margin: 10px;
+  cursor: pointer;
+}
+.enroll-courses {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 10px;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: white;
+  background-color: rgb(177, 26, 26);
+}
+.nav-link-button {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(57, 57, 241);
+  margin: 0 15px;
+  padding: 10px;
+}
+.nav-link-button:hover {
+  background-color: white;
+  color: black;
 }
